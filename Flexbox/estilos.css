@@ -1,0 +1,26 @@
+.contenedor {
+    display: flex;
+
+   /* flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: row-reverse wrap;
+    
+    justify-content: flex-start;
+    height: 240px;
+    background: grey;
+    justify-content: flex-start;
+    align-items: stretch;*/
+
+}
+
+/*.elemento {
+    width: 25%;
+    background: linear-gradient(to right, blue, white);
+    border: 1px solid black;
+    height: 40px;
+    color: white;
+}*/
+
+.elemento:nth-child(4) {
+    flex-grow: 3;
+}
