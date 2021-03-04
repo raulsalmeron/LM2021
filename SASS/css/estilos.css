@@ -1,0 +1,27 @@
+/* line 4, ../REPOSITORIO/LM2021/SASS/scss/estilos.scss */
+body {
+  background-color: #c0c0c0;
+  margin: 2em;
+}
+
+/* line 9, ../REPOSITORIO/LM2021/SASS/scss/estilos.scss */
+#main {
+  width: 97%;
+}
+
+/* line 11, ../REPOSITORIO/LM2021/SASS/scss/estilos.scss */
+#main p, #main div {
+  font-size: 20px;
+}
+
+/* line 13, ../REPOSITORIO/LM2021/SASS/scss/estilos.scss */
+#main p a, #main div a {
+  text-decoration: none;
+}
+
+/* line 17, ../REPOSITORIO/LM2021/SASS/scss/estilos.scss */
+#main span {
+  font-size: 22px;
+}
+
+/*# sourceMappingURL=estilos.css.map */

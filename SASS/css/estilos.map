@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "estilos.css",
+	"sources": [
+		"../scss/estilos.scss"
+	],
+	"sourcesContent": [
+		"$bg-color: #c0c0c0; \r\n$size: 1em; \r\n\r\nbody {\r\n    background-color: $bg-color;\r\n    margin: $size * 2;\r\n}\r\n\r\n#main {\r\n    width: 97%;\r\n    p, div {\r\n        font-size: 20px;\r\n        a {\r\n            text-decoration: none;\r\n        }\r\n    }\r\n span {\r\n     font-size: 22px;\r\n }\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAGA,AAAA,IAAI,CAAC;EACD,gBAAgB,EAJT,OAAO;EAKd,MAAM,EAAE,GAAS;CACpB;;;AAED,AAAA,KAAK,CAAC;EACF,KAAK,EAAE,GAAG;CAUb;;;AAXD,AAEI,KAFC,CAED,CAAC,EAFL,KAAK,CAEE,GAAG,CAAC;EACH,SAAS,EAAE,IAAI;CAIlB;;;AAPL,AAIQ,KAJH,CAED,CAAC,CAEG,CAAC,EAJT,KAAK,CAEE,GAAG,CAEF,CAAC,CAAC;EACE,eAAe,EAAE,IAAI;CACxB;;;AANT,AAQC,KARI,CAQJ,IAAI,CAAC;EACD,SAAS,EAAE,IAAI;CAClB"
+}
