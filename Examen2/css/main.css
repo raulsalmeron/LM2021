@@ -1,0 +1,57 @@
+#container {
+    display: flex;
+    justify-content: space-around;
+    }
+    
+    .card {
+    margin-top: 25px;
+    margin-left: 25px;
+    width: 250px;
+    height: 400px;
+    float: left;
+    }
+    img {
+    width: 200px;
+    height: 125px;
+    margin-left: 25px;
+    }
+    .augu {
+    background-color: #7788a1;
+    width: 90px;
+    height: 30px;
+    margin-left: 120px;
+    margin-top: 10px;
+    }
+    .titulo {
+    color: white;
+    text-align: center;
+    }
+    #titulo_2 {
+    color: #2a94f9;
+    font-size: 20px;
+    margin-top: 25px;
+    text-align: center;
+    }
+    #subtitulo {
+    font-size: 12px;
+    
+    margin-top: -15px;
+    text-align: center;
+    }
+    #contenido {
+    text-align: center;
+    font-size: 15px;
+    }
+    #read {
+    background-color: #7788a1;
+    width: 90px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 4px;
+    }
+    #readmore {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
+    }

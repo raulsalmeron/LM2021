@@ -1,0 +1,31 @@
+#container h2, span{ font-style: oblique;
+}
+
+#datos {
+    background-color: grey;
+    color: black;
+}
+#negra {
+    font-weight: bold;
+}
+
+.segundo:active {
+    background-color: purple;
+}
+#negrita_2 {
+    font-size:50px;
+}
+a[class="azules"] {
+    color: blue ;
+}
+a[class="rojos"] {
+    color: red;
+}
+
+#azul1:hover {
+    font-size: 30px;
+}
+
+#fondo-gris {
+    background-color: grey;
+}
