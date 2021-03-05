@@ -1,0 +1,40 @@
+#negrita h2, span, p {
+    font-weight: bold;}
+
+#primera {
+    background-color: blue;
+}
+
+#cursiva {
+    font-style: oblique;
+}
+
+.bloque:hover {
+    font-size: 30px;
+}
+
+#cursiva_2 {
+    font-size:50px;
+}
+
+
+a[class="subrayado"] {
+    text-decoration:none;
+    font-weight: bold;
+}
+
+#Enlaces {
+    color: red;
+}
+
+#rojo {
+    color: red;
+}
+
+.sevilla {
+    background-color: blue;
+    font-size: 20px;
+}
+
+
+

@@ -1,0 +1,79 @@
+.gris  {
+    background-color: grey;
+}
+
+#titulo {
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+}
+
+#nudo {
+    color: white;
+}
+
+#fin {
+    font-weight: bold;
+}
+
+
+section {
+    display: flex;
+}
+ 
+article {
+    text-align: left;
+    width: 100%;
+    margin: 20px;
+    border: 1px solid grey;
+}
+ 
+#articulo-1 {
+    background: white;
+}
+ 
+#mundo {
+    font-weight: bold;
+    font-size: 20px;
+    color: blue;
+}
+h1 {
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+}
+h3 {
+    color: grey;
+    font-size: 20px;
+}
+h4 {
+    color: blue;
+    font-size: 15px;
+}
+ 
+#articulo-2 {
+    background: white;
+}
+#tecnologia {
+    font-weight: bold;
+    font-size: 20px;
+    color: green;
+}
+#thubnail {
+    background-color: grey;
+    width: 400px;
+    height: 250px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    
+
+}
+p {
+    text-align: justify;
+}
+ 
+iframe {
+    width: 200px;
+    height: 200px;
+}
