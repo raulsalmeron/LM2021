@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eje2</title>
+    <style type="text/css">
+    .letra1{font-family: 'Courier New', Courier, monospace; color: #345684;}
+    .letra2{font-family: 150% 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: bold;}
+    .letra3{font-family: 60%'Times New Roman', Times, serif; text-decoration: underline;}
+    </style>
+</head>
+<body>
+    <table style="text-align: center;" id="tabla" class="letra1">
+        <tr>
+            <td>Raul</td>
+            <td>Salmeron</td>
+            <td>Granado</td>
+        </tr>
+        <h1><input type="button" value="Boton1" onclick="boton1()">
+            <input type="button" value="Boton2" onclick="boton2()">
+            <input type="button" value="Boton3" onclick="boton3()"></h1>
+    </table>
+</body>
+</html>
+
+<script>
+function boton1() {
+    document.getElementById("tabla").className = "letra1";
+    }
+    function boton2() {
+    document.getElementById("tabla").className = "letra2";
+    }
+    function boton3() {
+        document.getElementById("tabla").className = "letra3";
+        }
+
+</script>

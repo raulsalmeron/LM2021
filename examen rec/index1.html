@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ej-1</title>
+</head>
+<body>
+    <div style="width: 50%"></div>
+    <form action="" method="GET" name="nombreFormulario"
+    onsubmit="return validarFormulario()">
+    <table>
+    <tr>
+    <td></td>
+    <td><label for="nombre">Nombre y Apellidos:</label></td>
+    <td><input type="text" name="nombre" id="nombre"></td>
+    </tr>
+    <tr>
+    <td></td>
+    <td><label for="email">Email:</label></td>
+    <td><input type="text" name="email" id="email"></td>
+    </tr>
+    <tr>
+    <td></td>
+    <td><label for="edad">Edad:</label></td>
+    <td><input type="number" name="edad" id="edad"></td>
+    </tr>
+    <tr>
+    <td></td>
+    <td><label for="web">Web:</label></td>
+    <td><input type="text" name="web" id="web"></td>
+    </tr>
+    </tr>
+    </tr><tr>
+    <td colspan="2"><input type="submit" value="Enviar"></td>
+    </tr>
+    </table>
+    </form>
+    </div>
+    <div id="capaerrores" style="width: 50%;float: left;color:
+    red;visibility: hidden;">
+    <h3 id="errores" style="align-content: center;">Errores</h3>
+    </div>
+    </body>
+    </html>
+
+    <script>
+        function validarFormulario() {
+    var errores = "";
+    var nombre = document.getElementById("nombre").value;
+    if (nombre.length <5 || nombre.length > 30 || nombre) {
+    errores = errores + "<li>El nombre debe tener entre 5 y 30 caracteres</li>";
+    }else if (nombre == null || email.length == 0) {
+    errores = errores + "<li>Campo vacío</li>";
+    }
+    var email = document.getElementById("email").value;
+    if (email.indexOf("@iestriana.com") == -1) {
+    errores = errores + "<li>La dirección debe contener @iestriana.com</li>";
+    }else if (email == null || email.length == 0) {
+    errores = errores + "<li>Campo vacío</li>";
+    }
+    var edad = document.getElementById("edad").value;
+    if (edad < 18 || edad >10) {
+    errores = errores + "<li>La edad debe estar comprendida entre 18 y 100</li>";
+    }else if (web == null || web.length == 0) {
+    errores = errores + "<li>Campo vacío</li>";
+    }
+    var web = document.getElementById("web").value;
+    if (web.indexOf("http://") == -1) {
+    errores = errores + "<li>La dirección debe comenzar por hhtp://</li>";
+    }else if (web == null || web.length == 0) {
+    errores = errores + "<li>Campo vacío</li>";
+    }
+    if (errores.length == 0) {
+    return true;
+    }else {
+    verErrores(errores);
+    return false;
+    }
+    }
+    function verErrores(errores) {
+    document.getElementById("errores").innerHTML = errores;
+    document.getElementById("capaerrores").style.visibility =
+    "visible";
+    
+    }
+    </script>
+
+
